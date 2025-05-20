@@ -1,0 +1,54 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+.constainerWidth {
+  max-width: 120rem;
+  margin: 3rem auto;
+}
+
+.projects {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0, 0 10px rgba(0, 0, 0, 1);
+}
+
+.card {
+  min-width: 25rem;
+
+  background-color: #dddddd;
+  border-radius: 1rem;
+
+  padding: 2rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+}
