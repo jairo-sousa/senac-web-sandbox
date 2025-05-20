@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+}
+
+header,
+nav,
+main {
+  padding: 20px;
+}
+
+nav {
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  height: fit-content;
+  gap: 30px;
+}
+
+main,
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
