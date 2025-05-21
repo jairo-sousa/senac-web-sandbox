@@ -6,9 +6,51 @@
     <title>Senac</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <h1>Olá mundo!</h1>
+    <!-- HEADER -->
+    <header>
+      <h1>Fale comigo</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="/pages/projetos.html"> Projetos </a></li>
+          <li><a href="/pages/contatos.html"> Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <section>
+        <p>Entre em contato para dúvidas, sugestões ou parcerias</p>
+      </section>
+
+      <section>
+        <h2>Formulário para contato</h2>
+
+        <form action="https://www.example.com/submit" method="post">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required /> <br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" requ required /> <br />
+
+          <label for="subject">Assunto:</label>
+          <input type="text" id="subject" name="subject" required /> <br />
+
+          <label for="message">Menssagem:</label>
+          <textarea name="message" id="message" required rows="1"></textarea>
+          <br />
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer></footer>
   </body>
 </html>
