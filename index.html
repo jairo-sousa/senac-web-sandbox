@@ -6,25 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Senac</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style/style.css" />
+
+  <style>
+    .color {
+      animation: color 1s infinite linear;
+    }
+
+    @keyframes color {
+      0% {
+        color: red
+      }
+
+      20% {
+        color: blue
+      }
+
+      40% {
+        color: yellow
+      }
+
+      60% {
+        color: green
+      }
+
+      80% {
+        color: orange
+      }
+
+      100% {
+        color: purple
+      }
+    }
+  </style>
 
   <!-- JS -->
   <script src="script/script.js" defer></script>
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="pages/page.html"> Página </a></li>
-      </ul>
-    </nav>
 
-    <h1>Início</h1>
-  </header>
+  <div>
+    <h1>Olá <span id="displayName">Fulano</span>!</h1>
+
+    <p>Digite seu nome para que eu comprimente corretamente!</p>
+
+    <label for="nameToDisplay">Seu nome:</label>
+    <input type="text" name="nameToDisplay" id="nameToDisplay">
+    <button id="sendName">Enviar</button>
+  </div>
+
+  <script>
+    // window.document.writeln("<h1>Olá mundo</h1>")
+  </script>
 </body>
 
 </html>
