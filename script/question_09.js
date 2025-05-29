@@ -2,13 +2,17 @@
 
 window.addEventListener("load", () => {
   const evaluateBtn = document.getElementById("evaluateBtn");
-  const numberToEval = document.getElementById("numberToEval");
+  const referenceNumber = document.getElementById("referenceNumber");
+  const numberToCompare = document.getElementById("numberToCompare");
   const numberInfo = document.getElementById("numberInfo");
 
   evaluateBtn.onclick = (event) => {
     event.preventDefault();
 
-    response = evaluateNumber(Number(numberToEval.value));
+    response = evaluateNumbers(
+      Number(referenceNumber.value),
+      Number(numberToCompare.value)
+    );
 
     console.log(response);
 
@@ -16,12 +20,12 @@ window.addEventListener("load", () => {
   };
 });
 
-const evaluateNumber = (number) => {
+const evaluateNumbers = (reference, compare) => {
   let result = "";
-  console.log(number, typeof number);
-  if (number > 0) result = "Positivo";
-  if (number < 0) result = "Negativo";
-  if (number === 0) result = "Zero";
 
-  return `O número é ${result}`;
+  if (compare > reference) result = "Maior";
+  if (compare < reference) result = "Menor";
+  if (compare === reference) result = "Igual";
+
+  return `O número comparado é ${result}`;
 };
