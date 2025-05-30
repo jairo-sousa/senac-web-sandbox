@@ -3,7 +3,8 @@
 
 window.addEventListener("load", () => {
   const answerBtn = document.getElementById("answerBtn");
-  const answer = document.getElementById("answer");
+  const answer_01 = document.getElementById("answer_01");
+  const answer_02 = document.getElementById("answer_02");
 
   const input_01 = document.getElementById("input_01");
 
