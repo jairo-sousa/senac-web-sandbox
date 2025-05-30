@@ -1,4 +1,5 @@
-// Exercicio 10 - Crie um programa que verifique se um número é múltiplo de outro número e exiba o resultado no console.
+// Exercicio 10 - Crie um programa que verifique se um número é múltiplo
+// de outro número e exiba o resultado no console.
 
 window.addEventListener("load", () => {
   const evaluateBtn = document.getElementById("evaluateBtn");

@@ -1,4 +1,5 @@
-// Exercicio 11 - Crie um programa que verifique se uma string contém uma determinada substring e exiba o resultado no console.
+// Exercicio 11 - Crie um programa que verifique se uma string
+// contém uma determinada substring e exiba o resultado no console.
 
 window.addEventListener("load", () => {
   const evaluateBtn = document.getElementById("evaluateBtn");

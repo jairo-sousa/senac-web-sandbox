@@ -1,4 +1,5 @@
-// Questão 08 - Crie um programa que verifique se um número é positivo, negativo ou zero e exiba o resultado no console.
+// Questão 08 - Crie um programa que verifique se um número é positivo,
+// negativo ou zero e exiba o resultado no console.
 
 window.addEventListener("load", () => {
   const evaluateBtn = document.getElementById("evaluateBtn");

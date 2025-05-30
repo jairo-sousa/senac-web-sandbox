@@ -1,4 +1,5 @@
-// Questão 09 - Crie um programa que verifique se um número é maior, menor ou igual a outro número e exiba o resultado no console.
+// Questão 09 - Crie um programa que verifique se um número é maior,
+// menor ou igual a outro número e exiba o resultado no console.
 
 window.addEventListener("load", () => {
   const evaluateBtn = document.getElementById("evaluateBtn");

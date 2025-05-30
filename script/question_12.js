@@ -1,4 +1,5 @@
-// Exercicio 12 - Crie um um programa que receba o raio de uma circunferência e mostre o diâmetro, comprimento e área desta.
+// Exercicio 12 - Crie um um programa que receba o raio de uma 
+// circunferência e mostre o diâmetro, comprimento e área desta.
 
 window.addEventListener("load", () => {
   const answerBtn = document.getElementById("answerBtn");
