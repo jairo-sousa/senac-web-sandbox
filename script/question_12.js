@@ -22,5 +22,5 @@ const solveQuestion = (rayValue) => {
   let area = (3.14 * rayValue) ^ 2;
   let length = 2 * 3.14 * rayValue;
 
-  return `Diâmetro: ${diameter}   |   Área: ${area}   |   Comprimento${length}`;
+  return `Diâmetro: ${diameter}   |   Área: ${area}   |   Comprimento: ${length}`;
 };

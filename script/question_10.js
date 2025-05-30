@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
 const evaluateNumbers = (reference, compare) => {
   let result = "";
 
-  if (compare % reference === 0) result = "é ";
+  if (compare % reference !== 0) result = "não ";
 
-  return `O número comparado ${result}múltiplo`;
+  return `O número comparado ${result}é múltiplo`;
 };
